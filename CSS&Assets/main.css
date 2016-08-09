@@ -1,0 +1,246 @@
+html {
+    position: relative;
+    min-height: 100%;
+    background-color: #222222;
+}
+
+body{
+    font-family: 'Roboto', sans-serif; !important;
+    font-weight: 300;
+}
+
+#item1{
+    padding-left: 260px
+}
+
+#item1-inner{
+    margin-left: 160px
+}
+
+#item2{
+    padding-left: 400px
+}
+
+#item2-inner{
+    margin-left: 240px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 35px;
+    background-color: #555;
+    left: 0;
+}
+
+.navbar-fixed-top {
+    height: 100px;
+    padding-top: 25px;
+}
+
+.navbar-inner {
+    padding-left: 100px;
+    padding-right: 300px;
+}
+
+#logo {
+    font-size: 36px;
+    color: #333333;
+}
+
+#home-button a:hover {
+    color: #999;
+}
+
+#mainnav li{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 22px;
+    margin-top: 13px;
+}
+
+#mainnav li a {
+    text-decoration: none;
+    color: #333;
+}
+
+#mainnav li a:hover {
+    color: #999;
+}
+
+#list ul li {
+    font-size: 25px;
+    font-weight: 300;
+    color: #cccccc;
+}
+
+#home1{
+    height: 282px
+}
+
+#home2{
+    height: 282px;
+}
+#about-inner{
+    height: 300px;
+}
+
+#contact{
+    height: 1000px;
+}
+
+section.module.parallax.parallax-3 h1{
+    padding-top: 50px;
+}
+
+div.container {
+    padding-top: 100px;
+}
+
+section.module:last-child {
+    margin-bottom: 0;
+}
+
+section.module h2 {
+    margin-bottom: 25px;
+    font-size: 40px;
+    color: #cccccc;
+}
+
+section.module p {
+    margin-bottom: 45px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #cccccc;
+}
+
+section.module p:last-child {
+    margin-bottom: 0;
+}
+
+section.module.content {
+    padding-bottom:  40px;
+    padding-top: 20px;
+    background: #222;
+    height: 450px;
+}
+
+section.module.parallax {
+    height: 650px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section.module.parallax h1 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 45px;
+    line-height: 150px;
+    font-weight: 300;
+    text-align: left;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 0;
+    padding-left: 100px;
+}
+
+section.module.parallax-1 {
+    background-image: url("NVIDIA-GeForce-GTX-1080_3.jpg");
+}
+
+section.module.parallax-2 {
+    background-image: url("services.jpg");
+    height: 740px;
+}
+
+section.module.parallax-3 {
+    background-color: #222;
+}
+
+section.module.parallax-2 h1{
+    padding-top: 50px;
+}
+
+@media all and (max-width: 1440px) {
+    #item1{
+        padding-left: 260px;
+    }
+
+    #item1-inner{
+        margin-left: 100px;
+    }
+
+    #item2{
+        padding-left: 420px;
+    }
+
+    #item2-inner{
+        margin-left: 100px;
+    }
+
+    section.module.parallax h1 {
+        font-size: 40px;
+    }
+
+    section.module.parallax {
+        height: 350px;
+
+    }
+
+    section.module h2 {
+        font-size: 24px;
+    }
+
+
+    #list ul li {
+        font-size: 20px;
+    }
+
+    section.module p {
+        font-size: 17px;
+    }
+
+    section.module.parallax-2 {
+    height: 420px;
+    }
+
+    div.container {
+        padding-top: 50px
+    }
+
+    section.module.content {
+    padding-bottom: 20px;
+    height: 450px;
+}
+
+    #contact{
+        height: 600px;
+        padding-top: 0;
+    }
+
+    #img1{
+        height: 550px;
+        width: 100%
+    }
+
+    #home1{
+        height: 190px
+    }
+
+    #img2{
+        width: 100%;
+        height: 550px;
+        padding-top: 35px;
+    }
+
+    #home2{
+        height: 190px;
+    }
+
+    #logo{
+        font-size: 30px;
+    }
+}
+
