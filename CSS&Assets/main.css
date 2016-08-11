@@ -87,7 +87,19 @@ body{
 }
 
 #contact{
-    height: 1000px;
+    height: 900px;
+}
+
+#services-img1{
+    height: 550px;
+}
+
+#services-img2{
+    height: 550px;
+}
+
+#services-img3{
+    height: 550px;
 }
 
 section.module.parallax.parallax-3 h1{
@@ -127,7 +139,7 @@ section.module.content {
 }
 
 section.module.parallax {
-    height: 650px;
+    height: 550px;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -151,8 +163,7 @@ section.module.parallax-1 {
 }
 
 section.module.parallax-2 {
-    background-image: url("services.jpg");
-    height: 740px;
+    height: 655px;
 }
 
 section.module.parallax-3 {
@@ -241,6 +252,18 @@ section.module.parallax-2 h1{
 
     #logo{
         font-size: 30px;
+    }
+
+    #services-img1{
+        height: 350px;
+    }
+
+    #services-img2{
+        height: 350px;
+    }
+
+    #services-img3{
+        height: 350px;
     }
 }
 
