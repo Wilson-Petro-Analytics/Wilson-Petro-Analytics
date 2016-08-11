@@ -93,6 +93,9 @@ body{
     height: 550px;
 }
 
+#list{
+    padding-left: 250px
+}
 
 div.container {
     padding-top: 100px;
@@ -126,6 +129,16 @@ section.module.content {
     height: 450px;
 }
 
+section#contact h1{
+        padding-left: 200px;
+        padding-top: 80px;
+        color: #dfdfdf;
+        font-size: 45px
+    }
+
+#about-img{
+    width: 100%;
+}
 @media all and (max-width: 1440px) {
     #item1{
         padding-left: 260px;
@@ -138,7 +151,6 @@ section.module.content {
     section.module h2 {
         font-size: 24px;
     }
-
 
     #list ul li {
         font-size: 20px;
@@ -153,24 +165,23 @@ section.module.content {
     }
 
     section.module.content {
-    padding-bottom: 20px;
-    height: 450px;
-}
+        padding-bottom: 20px;
+        height: 250px;
+    }
 
     #contact{
-        height: 600px;
+        height: 500px;
         padding-top: 0;
     }
 
     #img1{
-        height: 550px;
-        width: 100%
+        height: 470px;
+        width: 100%;
     }
 
     #home1{
-        height: 190px
+        height: 80px
     }
-
 
     #logo{
         font-size: 30px;
@@ -186,6 +197,83 @@ section.module.content {
 
     #services-img3{
         height: 350px;
+    }
+    #about-img{
+        height: 400px;
+        padding-top: 57px;
+    }
+
+    #about-inner{
+        padding-left: 100px;
+    }
+
+    section#contact > h1{
+        padding-left: 120px;
+        padding-top: 50px;
+        color: #dfdfdf;
+        font-size: 35px
+    }
+}
+
+@media all and (max-width: 1024px){
+    #list{
+        padding-left: 150px;
+    }
+
+    #about-inner{
+        padding-left: 10px;
+    }
+
+    section.module.content {
+        padding-bottom: 20px;
+        height: 225px;
+    }
+
+    #about-img{
+        width: 100%;
+        height: 350px;
+        padding-top: 65px
+    }
+
+    #img1{
+        height: 470px;
+    }
+
+    #item1{
+        padding-left: 100px;
+    }
+
+    section#contact > h1{
+        padding-left: 120px;
+        padding-top: 0;
+        color: #dfdfdf;
+        font-size: 35px
+    }
+
+    div.container {
+        padding-top: 50px;
+        padding-left: 150px;
+    }
+
+    #contact{
+        height: 450px;
+        padding-top: 0;
+    }
+
+    #services-img1{
+        height: 250px;
+    }
+
+    #services-img2{
+        height: 250px;
+    }
+
+    #services-img3{
+        height: 250px;
+    }
+
+    #list ul li {
+        font-size: 16px;
     }
 }
 
