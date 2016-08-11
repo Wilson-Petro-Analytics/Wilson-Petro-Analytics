@@ -33,6 +33,7 @@ body{
 
 .navbar-brand{
     padding-top: 40px;
+    padding-left: 120px;
     font-size: 36px;
 }
 
@@ -42,6 +43,10 @@ body{
 
 .navbar-nav>li>a{
     padding-top: 50px;
+}
+
+.navbar-nav>li>a :last-child{
+    padding-right: 120px;
 }
 
 #home-button a:hover {
