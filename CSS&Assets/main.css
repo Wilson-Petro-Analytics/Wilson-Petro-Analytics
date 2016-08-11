@@ -2,6 +2,7 @@ html {
     position: relative;
     min-height: 100%;
     background-color: #222222;
+    overflow-x: hidden;
 }
 
 body{
@@ -15,14 +16,6 @@ body{
 
 #item1-inner{
     margin-left: 160px
-}
-
-#item2{
-    padding-left: 400px
-}
-
-#item2-inner{
-    margin-left: 240px;
 }
 
 .footer {
@@ -79,15 +72,13 @@ body{
     height: 282px
 }
 
-#home2{
-    height: 282px;
-}
 #about-inner{
     height: 300px;
 }
 
 #contact{
     height: 900px;
+    background-color: #222222;
 }
 
 #services-img1{
@@ -102,9 +93,6 @@ body{
     height: 550px;
 }
 
-section.module.parallax.parallax-3 h1{
-    padding-top: 50px;
-}
 
 div.container {
     padding-top: 100px;
@@ -138,42 +126,6 @@ section.module.content {
     height: 450px;
 }
 
-section.module.parallax {
-    height: 550px;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-section.module.parallax h1 {
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 45px;
-    line-height: 150px;
-    font-weight: 300;
-    text-align: left;
-    text-transform: uppercase;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    margin-top: 0;
-    padding-left: 100px;
-}
-
-section.module.parallax-1 {
-    background-image: url("NVIDIA-GeForce-GTX-1080_3.jpg");
-}
-
-section.module.parallax-2 {
-    height: 655px;
-}
-
-section.module.parallax-3 {
-    background-color: #222;
-}
-
-section.module.parallax-2 h1{
-    padding-top: 50px;
-}
-
 @media all and (max-width: 1440px) {
     #item1{
         padding-left: 260px;
@@ -181,23 +133,6 @@ section.module.parallax-2 h1{
 
     #item1-inner{
         margin-left: 100px;
-    }
-
-    #item2{
-        padding-left: 420px;
-    }
-
-    #item2-inner{
-        margin-left: 100px;
-    }
-
-    section.module.parallax h1 {
-        font-size: 40px;
-    }
-
-    section.module.parallax {
-        height: 350px;
-
     }
 
     section.module h2 {
@@ -211,10 +146,6 @@ section.module.parallax-2 h1{
 
     section.module p {
         font-size: 17px;
-    }
-
-    section.module.parallax-2 {
-    height: 420px;
     }
 
     div.container {
@@ -240,15 +171,6 @@ section.module.parallax-2 h1{
         height: 190px
     }
 
-    #img2{
-        width: 100%;
-        height: 550px;
-        padding-top: 35px;
-    }
-
-    #home2{
-        height: 190px;
-    }
 
     #logo{
         font-size: 30px;
