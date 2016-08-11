@@ -27,19 +27,21 @@ body{
     left: 0;
 }
 
-.navbar-fixed-top {
-    height: 100px;
-    padding-top: 25px;
+.navbar{
+    min-height: 100px;
 }
 
-.navbar-inner {
-    padding-left: 100px;
-    padding-right: 300px;
-}
-
-#logo {
+.navbar-brand{
+    padding-top: 40px;
     font-size: 36px;
-    color: #333333;
+}
+
+.nav a{
+    font-size: 25px;
+}
+
+.navbar-nav>li>a{
+    padding-top: 50px;
 }
 
 #home-button a:hover {
@@ -147,6 +149,10 @@ section#contact h1{
 }
 
 @media all and (max-width: 1440px) {
+    html{
+        overflow: visible;
+    }
+
     #item1{
         padding-left: 260px;
     }
@@ -223,6 +229,10 @@ section#contact h1{
 }
 
 @media all and (max-width: 1024px){
+    html{
+        overflow: visible;
+    }
+
     #list{
         padding-left: 150px;
     }
