@@ -158,7 +158,8 @@ section#contact h1{
 @media all and (max-width: 1440px) {
 
     #item1{
-        padding-left: 260px;
+        padding-left: 330px;
+        max-width: 78%;
     }
 
     #item1-inner{
@@ -273,6 +274,7 @@ section#contact h1{
 
     #item1{
         padding-left: 120px;
+        max-width: 90%;
     }
 
     section#contact > h1{
