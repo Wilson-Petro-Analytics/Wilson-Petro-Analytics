@@ -255,6 +255,7 @@ section#contact h1{
     #about-inner{
         padding-left: 80px;
         max-width: 90%;
+        height: 200px;
     }
 
     section.module.content {
