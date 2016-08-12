@@ -154,7 +154,13 @@ section#contact h1{
     height: 550px;
     padding-top: 40px;
 }
+@media all and (max-height: 1200px){
 
+    #img1{
+        height: 900px;
+        width: 100%;
+    }
+}
 @media all and (max-width: 1440px) {
 
     #item1{
