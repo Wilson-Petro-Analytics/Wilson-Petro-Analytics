@@ -2,7 +2,6 @@ html {
     position: relative;
     min-height: 100%;
     background-color: #222222;
-    overflow: hidden;
 }
 
 body{
@@ -69,6 +68,10 @@ body{
     color: #999;
 }
 
+#list ul{
+    display: inline-block;
+}
+
 #list ul li {
     font-size: 25px;
     font-weight: 300;
@@ -81,6 +84,12 @@ body{
 
 #about-inner{
     height: 300px;
+    padding-left: 250px;
+    width: 80%;
+}
+
+#about-inner p{
+    padding-left: 50px;
 }
 
 #contact{
@@ -149,10 +158,6 @@ section#contact h1{
     padding-top: 40px;
 }
 
-#about-inner{
-    padding-left: 250px;
-}
-
 @media all and (max-width: 1440px) {
     html{
         overflow: visible;
@@ -169,6 +174,11 @@ section#contact h1{
     section.module h2 {
         font-size: 24px;
     }
+
+    #list{
+        padding-left: 190px;
+    }
+
 
     #list ul li {
         font-size: 20px;
@@ -231,6 +241,14 @@ section#contact h1{
         color: #dfdfdf;
         font-size: 35px
     }
+
+    .navbar-brand{
+        font-size: 30px;
+    }
+
+    .nav a{
+        font-size: 20px;
+    }
 }
 
 @media all and (max-width: 1024px){
@@ -262,7 +280,7 @@ section#contact h1{
     }
 
     #item1{
-        padding-left: 100px;
+        padding-left: 70px;
     }
 
     section#contact > h1{
@@ -299,3 +317,36 @@ section#contact h1{
     }
 }
 
+/* iPad Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    #list{
+        padding-left: 50px;
+    }
+
+    #list ul li{
+        font-size: 14px;
+    }
+
+    .list{
+        float: left;
+        padding-left: 20px;
+        padding-right: 30px;
+    }
+
+    #item1{
+        padding-left: 15px;
+    }
+
+    section.module h2{
+        font-size: 20px;
+    }
+
+    section.module p{
+        padding-left: 20px;
+        font-size: 14px;
+    }
+
+    .navbar-brand{
+        padding-left: 20px;
+    }
+}
