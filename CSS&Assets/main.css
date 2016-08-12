@@ -156,9 +156,6 @@ section#contact h1{
 }
 
 @media all and (max-width: 1440px) {
-    html{
-        overflow: visible;
-    }
 
     #item1{
         padding-left: 260px;
@@ -249,9 +246,6 @@ section#contact h1{
 }
 
 @media all and (max-width: 1024px){
-    html{
-        overflow: visible;
-    }
 
     #list{
         padding-left: 150px;
@@ -347,5 +341,36 @@ section#contact h1{
 
     .navbar-brand{
         padding-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    html{
+        width: 590px;
+    }
+
+    body{
+        font-size: 12px;
+    }
+
+    #img1{
+        width: 590px;
+    }
+
+    #item1{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    section#contact > h1 {
+        padding-left: 30px;
+    }
+
+    div.container {
+        padding-left: 60px;
+    }
+
+    #about-inner{
+        padding-left: 30px;
     }
 }
