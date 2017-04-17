@@ -50,7 +50,7 @@
     </script>
     <title>abdatalab.com</title>
 </head>
-<body style="font-family: 'Roboto', sans-serif;">
+<body style="font-family: 'Roboto', sans-serif; height: 100%">
     <header>
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="navbar-inner">
@@ -75,7 +75,7 @@
             </div>
         </nav>
     </header>
-    <div style="background: #222222">
+    <div style="background: #222222; height: 100%">
         <div id="home" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -84,56 +84,56 @@
             </ol>
 
             <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
+            <div style="height: 100%" class="carousel-inner" role="listbox">
+                <div style="height: 100%" class="item active">
                     <img id="img1" src="CSS&Assets/Calgary.png">
                     <section class="module content" id="home1">
                         <div id="item1">
-                            <h2>Wilson Petro-Analytics is head quartered in Calgary, Alberta and has been providing <br><span id="item1-inner">reservoir engineering services to oil and gas clients since 2000</span></h2>
+                            <center>Wilson Petro-Analytics is head quartered in Calgary, Alberta and has been providing reservoir engineering services to oil and gas clients since 2000</center>
                         </div>
                     </section>
                 </div>
 
-                <div class="item">
+                <div style="height: 100%" class="item">
                     <img src="CSS&Assets/Map2.png" id="img2">
                     <section class="module content" id="home2">
                         <div id="item2">
-                            <h2>We have performed evaluations throughout North America, <br><span id="item2-inner">South America, Europe, and Australia</span></h2>
+                            <center>We have performed evaluations throughout North America, South America, Europe, and Australia</center>
                         </div>
                     </section>
                 </div>
 
             </div>
         </div>
+        <div id="about">
+            <section class="module parallax parallax-1">
+                <div>
+                    <h1 id="about-title">About</h1>
+                </div>
+            </section>
 
-        <section id="about" class="module parallax parallax-1">
-            <div>
-                <h1 style="padding-top: 80px">About</h1>
-            </div>
-        </section>
+            <section class="module content">
+                <div id="about-info">
+                    <p style="padding-left: 40px">Wilson Petro-Analytics was established as an independent Canadian consulting firm and has been providing oil and gas reserves<br>
+                        evaluation services to the petroleum industry for the last 16 years. We have consistently produced high quality reserves<br>
+                        evaluations, resource assessments and acquisition advice.<br><br>
+                        Wilson Petro-Analytics focus is to provide our clients with technical analysis that is reliable and stands the test of time while<br>
+                        providing insights into the assets under evaluation. We work closely with a companies development team and ensure that all the<br>
+                        risks, upsides and technical considerations are taken into account.<br><br>
+                        We have evaluated oil and gas properties throughout North America and have conducted evaluations in South America, Norway,<br>
+                        UK and Australia. Our evaluations have covered both conventional and unconventional resources.
+                    </p>
+                </div>
+            </section>
+        </div>
 
-        <section class="module content">
-            <div style="padding-left: 250px;">
-                <h2>About Wilson Petro-Analytics</h2>
-                <p style="padding-left: 40px">Wilson Petro-Analytics was established as an independent Canadian consulting firm and has been providing oil and gas reserves<br>
-                    evaluation services to the petroleum industry for the last 16 years. We have consistently produced high quality reserves<br>
-                    evaluations, resource assessments and acquisition advice.<br><br>
-                    Wilson Petro-Analytics focus is to provide our clients with technical analysis that is reliable and stands the test of time while<br>
-                    providing insights into the assets under evaluation. We work closely with a companies development team and ensure that all the<br>
-                    risks, upsides and technical considerations are taken into account.<br><br>
-                    We have evaluated oil and gas properties throughout North America and have conducted evaluations in South America, Norway,<br>
-                    UK and Australia. Our evaluations have covered both conventional and unconventional resources.
-                </p>
-            </div>
-        </section>
-
-        <section id="services" class="module parallax parallax-2 ligther">
-            <h1 style="color: #222">Services</h1>
-        </section>
-
-        <section id="about-inner" class="module content">
-            <div style="padding-left: 250px" id="list">
-                <h2>List of Services:</h2>
+        <div id="services">
+            <h1>Services</h1>
+            <center style="background: #fcfcfc">
+                <img style="height: 100%" src="CSS&Assets/services.png">
+            </center>
+            <div id="list">
+                <h2 style="color: #a7aaaf">List of Services:</h2>
                 <ul style="float: left; padding-left: 60px">
                     <li>Type Curve Analysis</li>
                     <li>Corporate and property level economic evaluations</li>
@@ -148,7 +148,8 @@
                     <li>Statistical analysis</li>
                 </ul>
             </div>
-        </section>
+        </div>
+        
 
         <section id="contact" class="module parallax parallax-3" style="background-color: #222222">
             <h1>Contact Us</h1>

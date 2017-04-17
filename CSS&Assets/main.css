@@ -10,11 +10,6 @@ body{
     font-weight: 300;
 }
 
-#item1{
-    padding-left: 290px;
-    max-width: 90%;
-}
-
 .footer {
     position: absolute;
     bottom: 0;
@@ -31,7 +26,10 @@ body{
 .navbar-brand{
     padding-top: 40px;
     padding-left: 120px;
-    font-size: 36px;
+}
+
+#logo{
+    font-size: 30px;
 }
 
 .nav a{
@@ -50,6 +48,10 @@ body{
     color: #999;
 }
 
+#mainnav{
+    padding-right: 20px
+}
+
 #mainnav li{
     display: inline-block;
     margin-left: 10px;
@@ -66,8 +68,17 @@ body{
     color: #999;
 }
 
+#list{
+    padding-left: 9%;
+}
+
+#list h2{
+    font-size: 30px
+}
+
 #list ul{
     display: inline-block;
+    padding-left: 10%
 }
 
 #list ul li {
@@ -76,39 +87,57 @@ body{
     color: #cccccc;
 }
 
+#home{
+    height: 100vh
+}
+
 #home1{
-    height: 180px
+    height: 180px;
 }
 
-#about-inner{
-    height: 300px;
-    padding-left: 250px;
-    max-width: 80%;
+#img1{
+    height: -webkit-calc(100% - 200px);
+    width: 100%
 }
 
-#about-inner p{
-    padding-left: 50px;
+#img2{
+    height: -webkit-calc(100% - 200px);
+    width: 100%
+}
+
+#about{
+    height: 100vh;
+    padding-top: 100px
+}
+
+#about-title{
+    color: #a7aaaf;
+    padding-left: 5%;
+    padding-top: 1%;
+}
+
+#about-info{
+    padding-left: 10%
+}
+
+
+#services{
+    height: 100vh;
+    padding-top:80px;
+}
+
+#services h1{
+    color: #a7aaaf;
+    padding-left: 50px
+}
+
+#services center{
+    height: -webkit-calc(100% - 320px);
 }
 
 #contact{
     height: 900px;
     background-color: #222222;
-}
-
-#services-img1{
-    height: 550px;
-}
-
-#services-img2{
-    height: 550px;
-}
-
-#services-img3{
-    height: 550px;
-}
-
-#list{
-    padding-left: 250px
 }
 
 div.container {
@@ -119,7 +148,7 @@ section.module:last-child {
     margin-bottom: 0;
 }
 
-section.module h2 {
+section.module center {
     margin-bottom: 25px;
     font-size: 40px;
     color: #cccccc;
@@ -127,7 +156,7 @@ section.module h2 {
 
 section.module p {
     margin-bottom: 45px;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 300;
     color: #cccccc;
 }
@@ -140,246 +169,53 @@ section.module.content {
     padding-bottom:  40px;
     padding-top: 20px;
     background: #222;
-    height: 450px;
+    height: -webkit-calc(100%);
 }
 
 section#contact h1{
         padding-left: 200px;
         padding-top: 80px;
         color: #dfdfdf;
-        font-size: 45px
+        font-size: 45px;
     }
 
 #about-img{
     height: 550px;
     padding-top: 40px;
 }
-@media all and (max-height: 1200px){
 
-    #img1{
-        height: 900px;
-        width: 100%;
-    }
-}
-@media all and (max-width: 1440px) {
-
-    #item1{
-        padding-left: 330px;
-        max-width: 78%;
-    }
-
-    #item1-inner{
-        margin-left: 100px;
-    }
-
-    section.module h2 {
-        font-size: 24px;
-    }
-
-    #list{
-        padding-left: 190px;
-    }
-
-
-    #list ul li {
-        font-size: 20px;
-    }
-
-    section.module p {
-        font-size: 17px;
-    }
-
-    div.container {
-        padding-top: 50px
-    }
-
-    section.module.content {
-        padding-bottom: 20px;
-        height: 250px;
-    }
-
-    #contact{
-        height: 500px;
-        padding-top: 0;
-    }
-
-    #img1{
-        height: 470px;
-        width: 100%;
-    }
-
-    #home1{
-        height: 130px
-    }
-
-    #logo{
-        font-size: 30px;
-    }
-
-    #services-img1{
-        height: 350px;
-    }
-
-    #services-img2{
-        height: 350px;
-    }
-
-    #services-img3{
-        height: 350px;
-    }
-    #about-img{
-        height: 400px;
-        padding-top: 57px;
-    }
-
-    #about-inner{
-        padding-left: 100px;
-    }
-
-    section#contact > h1{
-        padding-left: 120px;
-        padding-top: 50px;
-        color: #dfdfdf;
+@media all and (max-width: 1699px){
+    section.module center{
         font-size: 35px
-    }
-
-    .navbar-brand{
-        font-size: 30px;
-    }
-
-    .nav a{
-        font-size: 20px;
     }
 }
 
-@media all and (max-width: 1024px){
-
-    #list{
-        padding-left: 150px;
-    }
-
-    #about-inner{
-        padding-left: 80px;
-        max-width: 90%;
-        height: 200px;
-    }
-
-    section.module.content {
-        padding-bottom: 20px;
-        height: 340px;
-    }
-
-    #about-img{
-        width: 100%;
-        height: 350px;
-        padding-top: 65px
-    }
-
-    #img1{
-        height: 470px;
-    }
-
-    #item1{
-        padding-left: 120px;
-        max-width: 90%;
-    }
-
-    section#contact > h1{
-        padding-left: 120px;
-        padding-top: 0;
-        color: #dfdfdf;
-        font-size: 35px
-    }
-
-    div.container {
-        padding-top: 50px;
-        padding-left: 150px;
-    }
-
-    #contact{
-        height: 450px;
-        padding-top: 0;
-    }
-
-    #services-img1{
-        height: 250px;
-    }
-
-    #services-img2{
-        height: 250px;
-    }
-
-    #services-img3{
-        height: 250px;
+@media all and (max-width: 1399px){
+    #list h2{
+        font-size: 20px
     }
 
     #list ul li {
-        font-size: 16px;
-    }
-}
-
-/* iPad Landscape */
-@media only screen and (max-device-width: 768px){
-    #list{
-        padding-left: 50px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #cccccc;
     }
 
-    #list ul li{
-        font-size: 14px;
-    }
-
-    .list{
-        float: left;
-        padding-left: 20px;
-        padding-right: 30px;
-    }
-
-    #item1{
-        padding-left: 55px;
-        max-width: 100%;
-    }
-
-    section.module h2{
-        font-size: 20px;
+    section.module center{
+        font-size: 30px
     }
 
     section.module p{
-        padding-left: 20px;
-        font-size: 14px;
-    }
-
-    .navbar-brand{
-        padding-left: 20px;
+        font-size: 20px
     }
 }
 
-@media only screen and (max-width: 425px){
-    html{
-        width: 590px;
+@media all and (max-width: 999px){
+    section.module center{
+        font-size: 25px
     }
 
-    body{
-        font-size: 12px;
-    }
-
-    #img1{
-        width: 590px;
-    }
-
-    #item1{
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-
-    section#contact > h1 {
-        padding-left: 30px;
-    }
-
-    div.container {
-        padding-left: 60px;
-    }
-
-    #about-inner{
-        padding-left: 30px;
+    #about{
+        margin-bottom: 200px
     }
 }
